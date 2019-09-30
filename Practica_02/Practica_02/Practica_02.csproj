@@ -15,9 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Grid.xaml.cs">
-      <DependentUpon>Grid.xaml</DependentUpon>
-    </Compile>
     <Compile Update="HierchicalNavigation.xaml.cs">
       <DependentUpon>HierchicalNavigation.xaml</DependentUpon>
     </Compile>
@@ -30,8 +27,8 @@
     <Compile Update="AnswerPage.xaml.cs">
       <DependentUpon>AnswerPage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="TabbedPage.xaml.cs">
-      <DependentUpon>TabbedPage.xaml</DependentUpon>
+    <Compile Update="Grid.xaml.cs">
+      <DependentUpon>Grid.xaml</DependentUpon>
     </Compile>
     <Compile Update="StackLayout.xaml.cs">
       <DependentUpon>StackLayout.xaml</DependentUpon>
@@ -39,9 +36,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Grid.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Update="HierchicalNavigation.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -54,11 +48,14 @@
     <EmbeddedResource Update="AnswerPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="TabbedPage.xaml">
+    <EmbeddedResource Update="Grid.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="StackLayout.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="TabbedPageNew.xaml">
+      <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>
 </Project>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Practica_02.TabbedPageNew">
+    <ContentPage Title="Inicio">
+        <StackLayout>
+            <Label VerticalOptions="CenterAndExpand">Bienvenido a Lambage</Label>
+            <Button Text="Salir" x:Name="btnClose"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Nosotros">
+        <Label VerticalOptions="CenterAndExpand">Hola, somos una empresa peruana.</Label>
+    </ContentPage>
+
+    <ContentPage Title="Contáctanos">
+        <Label VerticalOptions="CenterAndExpand">Más información: 948543049</Label>
+    </ContentPage>
+</TabbedPage>

@@ -7,11 +7,14 @@
              x:Class="Practica_02.AnswerPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Answer Page"
+            <Label Text="Formulario extra"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
 
-            <Button Text="Previous Page" Clicked="OnPreviousPageButtonClicked"/>
+            <Editor  Placeholder="Ingresa tu edad" PlaceholderColor="Olive"></Editor>
+            <Editor Placeholder="Ingresa tu numero de celular" PlaceholderColor="Olive"></Editor>
+
+            <Button Text="Pagina anterior" Clicked="OnPreviousPageButtonClicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

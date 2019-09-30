@@ -14,13 +14,7 @@ namespace Practica_02
     {
         public Grid()
         {
-            var grid = new Grid();
-
-            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(2, GridUnitType.Star) });
-            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Star) });
-            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(200) });
-            grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(200) });
-
+            InitializeComponent();
         }
     }
 }

@@ -10,11 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace Practica_02
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class TabbedPage : ContentPage
+    public partial class TabbedPageNew : TabbedPage
     {
-        public TabbedPage()
+        public TabbedPageNew()
         {
-            
+            InitializeComponent();
         }
     }
 }

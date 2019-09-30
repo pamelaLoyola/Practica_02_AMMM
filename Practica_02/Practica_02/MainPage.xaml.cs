@@ -32,7 +32,7 @@ namespace Practica_02
             };
             Item4.Clicked += async (sender, e) =>
             {
-                await Navigation.PushAsync(new TabbedPage());
+                await Navigation.PushAsync(new TabbedPageNew());
 
             };
             Item5.Clicked += async (sender, e) =>

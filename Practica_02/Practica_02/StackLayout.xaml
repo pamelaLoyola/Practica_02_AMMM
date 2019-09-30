@@ -9,8 +9,8 @@
         <StackLayout Spacing="10">
 
             <Button Text="Hola a todos!" VerticalOptions="Start"></Button>
-            <BoxView Color="Azure" VerticalOptions="FillAndExpand"></BoxView>}
-            <Image Source="iphone.jpg"></Image>
+            <Button Text="Hola a todos!" VerticalOptions="Start"></Button>
+            <BoxView Color="Pink" VerticalOptions="FillAndExpand"></BoxView>
 
         </StackLayout>
     </ContentPage.Content>
